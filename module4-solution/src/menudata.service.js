@@ -13,7 +13,7 @@ function MenuDataService($http, ApiBasePath) {
     return $http({
       method: "GET",
       // url: (ApiBasePath + "/categories.json")
-      url: ("https://davids-restaurant.herokuapp.com/categories.json")
+      url: 'https://davids-restaurant.herokuapp.com/categories.json'
     });
 }
 
