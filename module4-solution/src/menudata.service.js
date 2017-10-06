@@ -12,7 +12,8 @@ function MenuDataService($http, ApiBasePath) {
   service.getAllCategories = function () {
     return $http({
       method: "GET",
-      url: (ApiBasePath + "/categories.json")
+      // url: (ApiBasePath + "/categories.json")
+      url: ("https://davids-restaurant.herokuapp.com/categories.json")
     });
 }
 
