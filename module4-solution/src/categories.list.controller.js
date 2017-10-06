@@ -9,6 +9,7 @@ function CategoriesListController(items) {
 
   var catList = this;
   catList.items = items;
+  console.log("CategoriesListController, items: "+catList.items);
 }
 
 })();
